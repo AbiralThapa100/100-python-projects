@@ -1,4 +1,11 @@
 import random
+def my_function():
+    print("Hello")
+    print("Bye")
+
+
+my_function()
+
 word_list = ["aardvark", "baboon", "camel"]
 
 chosen_word = random.choice(word_list)
