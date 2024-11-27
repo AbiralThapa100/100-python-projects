@@ -1,12 +1,13 @@
-for number in range (0, 101):
+import random
+word_list = ["aardvark", "baboon", "camel"]
 
-    if number % 3 == 0 and number % 5 == 0 :
-        print("FuzzBizz")
-    elif number% 3 == 0:
-        print("Fizz")
-    elif number % 5 == 0:
-        print("Buzz")
+chosen_word = random.choice(word_list)
+print(chosen_word)
+
+guess = input("Guess a letter: ").lower()
+
+for letter in chosen_word:
+    if letter == guess:
+        print("Right")
     else:
-        print(number)
-
-
+        print("Wrong")
