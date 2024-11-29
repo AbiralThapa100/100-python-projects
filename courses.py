@@ -113,3 +113,10 @@ for number in range(1, 101):
     total += number
 print(total)
 
+#function
+def my_function():
+    print("Hello")
+    print("Bye")
+
+
+my_function()
