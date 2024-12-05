@@ -130,3 +130,21 @@ basketball_players = {"Eve", "Richard", "Jessica", "Sam", "Michael"}
 basketball_only_players = basketball_players - (football_players | volleyball_players)
 
 print("Basketball-only players:", basketball_only_players)
+
+# Simple Function that packages code into a named block
+def greet():
+    print("Hello Angela")
+    print("How do you do Jack Bauer?")
+    print("Isn't the weather nice?")
+
+
+greet()
+
+
+# Function that allows for inputs
+def greet_with_name(name):
+    print(f"Hello {name}")
+    print(f"How do you do {name}?")
+
+
+greet_with_name("Billie")
