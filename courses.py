@@ -304,3 +304,22 @@ for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
 
+#nested list
+
+capitals = {
+    "France": "Paris",
+    "Germany": "Berlin",
+}
+
+# Nested List in Dictionary
+
+# travel_log = {
+#     "France": ["Paris", "Lille", "Dijon"],
+#     "Germany": ["Stuttgart", "Berlin"],
+# }
+
+# print Lille
+# print(travel_log["France"][1])
+
+nested_list = ["A", "B", ["C", "D"]]
+# print(nested_list[2][1])
